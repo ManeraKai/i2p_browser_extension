@@ -1,0 +1,10 @@
+{
+    "extensionName": {
+        "message": "I2P",
+        "description": "name of the extension"
+    },
+    "extensionDescription": {
+        "message": "A proxy for I2P",
+        "description": "description of the extension"
+    }
+}

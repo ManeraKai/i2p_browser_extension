@@ -1,0 +1,40 @@
+@font-face {
+	font-family: "Inter";
+	src: url("Inter-VariableFont_slnt,wght.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    text-align: center;
+    font-family: Inter;
+}
+
+a.logo img {
+    margin-bottom: 10px;
+}
+
+div.icons {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 180px;
+}
+
+a.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #231f20;
+    width: 90px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+a.icon img {
+    width: 45px;
+    height: 45px;
+    margin: 0 5px 5px 5px;
+}
