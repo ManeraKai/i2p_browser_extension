@@ -1,5 +1,5 @@
 browser.proxy.onRequest.addListener(
-    (requestInfo) => {
+    requestInfo => {
         const url = new URL(requestInfo.url)
         if (url.hostname.endsWith('.i2p')) {
             return { type: "http", host: "127.0.0.1", port: 4444 };

@@ -1,8 +1,8 @@
 @font-face {
-	font-family: "Inter";
-	src: url("Inter-VariableFont_slnt,wght.ttf");
-	font-weight: normal;
-	font-style: normal;
+    font-family: "Inter";
+    src: url("Inter-VariableFont_slnt,wght.ttf");
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -37,4 +37,16 @@ a.icon img {
     width: 45px;
     height: 45px;
     margin: 0 5px 5px 5px;
+}
+
+.disable {
+    filter: opacity(.7);
+    pointer-events: none;
+}
+
+.health {
+}
+
+.running {
+    display: none;
 }
