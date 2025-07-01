@@ -6,7 +6,7 @@
 		"npm": ">=8.1.2"
 	},
 	"scripts": {
-		"start": "web-ext run",
+		"start": "web-ext run --firefox=/home/manerakai/software/firefox/firefox",
 		"build": "web-ext build",
 		"test": "web-ext lint"
 	},
